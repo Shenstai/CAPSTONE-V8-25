@@ -19,6 +19,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'DefaultBuild' " />
   <PropertyGroup Condition=" '$(Configuration)' == 'BuildUwpAppX' " />
   <PropertyGroup Condition=" '$(Configuration)' == 'All' " />
+  <PropertyGroup Condition=" '$(Configuration)' == 'MsiBuild' " />
   <ItemGroup>
     <Compile Include="Vision.aip">
       <SubType>Content</SubType>

@@ -40,18 +40,18 @@ namespace DigitalWellbeingWPF.Views
             timer.Tick += new EventHandler(KillProcess);
             timer.Interval = new TimeSpan(0, 0, 5);
             timer.Start();
-           LoadBlockedApps();
+            LoadBlockedApps();
 
         }
         public void KillProcess(object Source, EventArgs e)
         {
+            string filePath = folderPath + @"blocklist.log";
 
-          
+
 
             try
             {
-                string filePath = folderPath + @"blocklist.log";
-
+               
                 string readText = File.ReadAllText(filePath);
                 for (int i = 0; i < readText.Length; i++)
                 {
@@ -68,16 +68,43 @@ namespace DigitalWellbeingWPF.Views
                 }
 
 
-            } catch(Exception ex)
+            } catch(FileNotFoundException )
             {
 
-                MessageBox.Show(ex.Message);
+                File.Create(filePath);
+            }
+            catch (DirectoryNotFoundException)
+            {
+                Directory.CreateDirectory(folderPath + @"blocklist.log");
+            }
+           
+
+            catch (UnauthorizedAccessException)
+            {
+                FileAttributes attributes = File.GetAttributes(filePath);
+                if ((attributes = FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
+                {
+                    attributes &= ~FileAttributes.ReadOnly;
+                    File.SetAttributes(filePath, attributes);
+                    File.Delete(filePath);
+                }
+                else
+                {
+                    throw;
+                }
+
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine(ex.Message);
             }
 
 
-         
-           
-          
+
+
+
+
+
         }
 
       
