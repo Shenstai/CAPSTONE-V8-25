@@ -30,7 +30,7 @@ namespace DigitalWellbeingWPF.Views
     {
         private readonly ApplicationTheme? systemTheme;
 
-        private int UPDATE_CHECK_DELAY = 20;
+       
         const string APP_TIMELIMIT_SEPARATOR = "    /    ";
 
         public SettingsPage()

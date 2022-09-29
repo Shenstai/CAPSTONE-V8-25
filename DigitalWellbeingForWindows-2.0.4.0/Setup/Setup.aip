@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DOCUMENT Type="Advanced Installer" CreateVersion="18.5" version="18.6.1" Modules="simple" RootPath="." Language="en" Id="{557D84C5-7AD9-417B-8CD4-58E518DF102B}">
+<DOCUMENT Type="Advanced Installer" CreateVersion="18.5" version="19.9" Modules="simple" RootPath="." Language="en" Id="{557D84C5-7AD9-417B-8CD4-58E518DF102B}">
   <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
     <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll" Value="..\DigitalWellbeing.Core\bin\Release"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll_1" Value="..\DigitalWellbeing.Core\bin\Release"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe" Value="..\DigitalWellbeingService.NET4.6\bin\Release"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe.config" Value="..\DigitalWellbeingService.NET4.6\bin\Release"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe" Value="..\DigitalWellbeingWPF\bin\Release"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe.config" Value="..\DigitalWellbeingWPF\bin\Release"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 19.9 build de6d6401" ValueLocId="-"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll" Value="..\DigitalWellbeing.Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll_1" Value="..\DigitalWellbeing.Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe" Value="..\DigitalWellbeingService.NET4.6\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe.config" Value="..\DigitalWellbeingService.NET4.6\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe" Value="..\DigitalWellbeingWPF\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe.config" Value="..\DigitalWellbeingWPF\bin\Debug"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_LiveCharts.Wpf.dll_1" Value="..\packages\LiveCharts.Wpf.0.9.7\lib\net45"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_LiveCharts.dll_1" Value="..\packages\LiveCharts.0.9.7\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Core.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Material.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Microns.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Modern.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_ModernWpf.Controls.dll_1" Value="..\packages\ModernWpfUI.0.9.4\lib\net45"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_ModernWpf.dll_1" Value="..\packages\ModernWpfUI.0.9.4\lib\net45"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.ValueTuple.dll" Value="..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0"/>
@@ -22,18 +56,50 @@
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe.config" Value="DigitalWellbeingWPF.exe.config"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.Wpf.dll_1" Value="LiveCharts.Wpf.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.dll_1" Value="LiveCharts.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll" Value="MahApps.Metro.IconPacks.BootstrapIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll" Value="MahApps.Metro.IconPacks.BoxIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll" Value="MahApps.Metro.IconPacks.Codicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll" Value="MahApps.Metro.IconPacks.Coolicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Core.dll" Value="MahApps.Metro.IconPacks.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll" Value="MahApps.Metro.IconPacks.Entypo.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll" Value="MahApps.Metro.IconPacks.EvaIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll" Value="MahApps.Metro.IconPacks.FeatherIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll" Value="MahApps.Metro.IconPacks.FileIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll" Value="MahApps.Metro.IconPacks.FontAwesome.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll" Value="MahApps.Metro.IconPacks.Fontaudio.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll" Value="MahApps.Metro.IconPacks.Fontisto.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll" Value="MahApps.Metro.IconPacks.ForkAwesome.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll" Value="MahApps.Metro.IconPacks.Ionicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll" Value="MahApps.Metro.IconPacks.JamIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Material.dll" Value="MahApps.Metro.IconPacks.Material.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll" Value="MahApps.Metro.IconPacks.MaterialDesign.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll" Value="MahApps.Metro.IconPacks.MaterialLight.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Microns.dll" Value="MahApps.Metro.IconPacks.Microns.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Modern.dll" Value="MahApps.Metro.IconPacks.Modern.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll" Value="MahApps.Metro.IconPacks.Octicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll" Value="MahApps.Metro.IconPacks.PicolIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll" Value="MahApps.Metro.IconPacks.PixelartIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll" Value="MahApps.Metro.IconPacks.RPGAwesome.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll" Value="MahApps.Metro.IconPacks.RadixIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll" Value="MahApps.Metro.IconPacks.RemixIcon.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll" Value="MahApps.Metro.IconPacks.SimpleIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll" Value="MahApps.Metro.IconPacks.Typicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll" Value="MahApps.Metro.IconPacks.Unicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll" Value="MahApps.Metro.IconPacks.VaadinIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll" Value="MahApps.Metro.IconPacks.WeatherIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll" Value="MahApps.Metro.IconPacks.Zondicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.dll" Value="MahApps.Metro.IconPacks.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.Controls.dll_1" Value="ModernWpf.Controls.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.dll_1" Value="ModernWpf.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.ValueTuple.dll" Value="System.ValueTuple.dll"/>
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
-    <ROW Property="ARPHELPLINK" Value="https://github.com/christiankyle-ching/DigitalWellbeingForWindows"/>
     <ROW Property="ARPPRODUCTICON" Value="applogo.exe" Type="8"/>
-    <ROW Property="Manufacturer" Value="ckcdev"/>
-    <ROW Property="ProductCode" Value="1033:{2BEDF880-D8B1-4813-8A44-6E79730D71A8} " Type="16"/>
+    <ROW Property="Manufacturer" Value="v8-25"/>
+    <ROW Property="ProductCode" Value="1033:{DE1CCE59-EDA3-41E0-B4FD-E669778A2623} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
-    <ROW Property="ProductName" Value="Digital Wellbeing For Windows"/>
-    <ROW Property="ProductVersion" Value="2.0.3.0" Type="32" TargetFile="DigitalWellbeingWPF.exe"/>
+    <ROW Property="ProductName" Value="Vision"/>
+    <ROW Property="ProductVersion" Value="1.0"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:Force"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{D7DA3A0D-99E1-4FAC-B2CC-FEBB27BCA59A}"/>
@@ -65,7 +131,7 @@
     <ROW Component="DigitalWellbeingService.NET4.6_PrimaryOutput" ComponentId="{FA385C41-DE30-4880-A584-61A0D16BAF7F}" Directory_="DigitalWellbeingService.NET4.6_Dir" Attributes="0" KeyPath="DigitalWellbeingService.NET4.6.exe"/>
     <ROW Component="DigitalWellbeingService.NET4.6_References" ComponentId="{1A21F0A6-DCE2-4186-874A-7F6CC5FBC04B}" Directory_="DigitalWellbeingService.NET4.6_Dir" Attributes="0" KeyPath="DigitalWellbeing.Core.dll"/>
     <ROW Component="DigitalWellbeingWPF_PrimaryOutput" ComponentId="{AF6ADD13-3A60-49AC-86E0-67656F4DBB8F}" Directory_="DigitalWellbeingWPF_Dir" Attributes="0" KeyPath="DigitalWellbeingWPF.exe"/>
-    <ROW Component="DigitalWellbeingWPF_References" ComponentId="{474BF6AB-CDBB-490D-8DE8-BD0065D66958}" Directory_="DigitalWellbeingWPF_Dir" Attributes="0" KeyPath="DigitalWellbeing.Core.dll_1"/>
+    <ROW Component="DigitalWellbeingWPF_References" ComponentId="{474BF6AB-CDBB-490D-8DE8-BD0065D66958}" Directory_="DigitalWellbeingWPF_Dir" Attributes="0" KeyPath="MahApps.Metro.IconPacks.Zondicons.dll"/>
     <ROW Component="ProductInformation" ComponentId="{5E6D901E-5FF4-4133-AE16-672B0136950B}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
     <ROW Component="SHORTCUTDIR" ComponentId="{6AE52111-73EE-4078-B8D1-DBAF1C3B8852}" Directory_="SHORTCUTDIR" Attributes="0"/>
   </COMPONENT>
@@ -85,6 +151,39 @@
     <ROW File="DigitalWellbeingWPF.exe.config" Component_="DigitalWellbeingWPF_PrimaryOutput" FileName="DIGITA~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingWPF.exe.config&gt;" SelfReg="false"/>
     <ROW File="DigitalWellbeing.Core.dll" Component_="DigitalWellbeingService.NET4.6_References" FileName="DIGITA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll&gt;" SelfReg="false"/>
     <ROW File="DigitalWellbeing.Core.dll_1" Component_="DigitalWellbeingWPF_References" FileName="DIGITA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll_1&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.BootstrapIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.BoxIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Codicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Coolicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Core.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Entypo.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.EvaIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.FeatherIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.FileIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Fontaudio.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.FontAwesome.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Fontisto.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.ForkAwesome.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Ionicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.JamIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Material.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Material.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Material.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.MaterialDesign.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.MaterialLight.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Microns.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Microns.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Microns.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Modern.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Modern.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Modern.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Octicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.PicolIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.PixelartIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.RadixIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~26.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.RemixIcon.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~27.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.RPGAwesome.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~28.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.SimpleIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~29.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Typicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~30.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Unicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~31.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.VaadinIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~32.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.WeatherIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~33.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Zondicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~34.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll&gt;" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
     <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll]" Type="2" Content="0"/>
@@ -95,6 +194,39 @@
     <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingWPF.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe.config]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_LiveCharts.Wpf.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_LiveCharts.Wpf.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.Wpf.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_LiveCharts.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_LiveCharts.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Material.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Material.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Material.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Microns.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Microns.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Microns.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Modern.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Modern.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Modern.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_ModernWpf.Controls.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_ModernWpf.Controls.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.Controls.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_ModernWpf.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_ModernWpf.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_System.ValueTuple.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.ValueTuple.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.ValueTuple.dll]" Type="2" Content="0"/>
@@ -117,6 +249,7 @@
     <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
     <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
     <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
     <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
     <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
     <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
@@ -203,7 +336,10 @@
     <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
     <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
     <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
@@ -230,5 +366,38 @@
     <ROW ProjectId="{b4e54005-c6dc-4003-bffe-01f0514eb985}" ProjectName="DigitalWellbeingService.NET4.6" OutputGroup="PrimaryOutput" OutputFile="DigitalWellbeingService.NET4.6.exe.config"/>
     <ROW ProjectId="{b4e54005-c6dc-4003-bffe-01f0514eb985}" ProjectName="DigitalWellbeingService.NET4.6" OutputGroup="References" OutputFile="DigitalWellbeing.Core.dll"/>
     <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="DigitalWellbeing.Core.dll_1"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.BootstrapIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.BoxIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Codicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Coolicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Core.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Entypo.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.EvaIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.FeatherIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.FileIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Fontaudio.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.FontAwesome.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Fontisto.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.ForkAwesome.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Ionicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.JamIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Material.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.MaterialDesign.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.MaterialLight.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Microns.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Modern.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Octicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.PicolIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.PixelartIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.RadixIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.RemixIcon.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.RPGAwesome.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.SimpleIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Typicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Unicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.VaadinIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.WeatherIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Zondicons.dll"/>
   </COMPONENT>
 </DOCUMENT>

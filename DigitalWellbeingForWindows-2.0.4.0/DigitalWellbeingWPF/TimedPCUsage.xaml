@@ -1,0 +1,32 @@
+﻿<Window x:Class="DigitalWellbeingWPF.TimedPCUsage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DigitalWellbeingWPF"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="TimedPCUsage" Height="450" Width="411">
+    <Grid>
+        <TextBlock Text="Set Timer" Style="{DynamicResource BaseTextBlockStyle}" Margin="10,0,335,413"/>
+        <TextBox Name="hh" Style="{DynamicResource DefaultTextBoxStyle}" Text="hh" Margin="41,26,296,375" TextAlignment="Center"/>
+        <TextBox Name="mm" Style="{DynamicResource DefaultTextBoxStyle}" Text="mm" Margin="120,26,217,375" TextAlignment="Center"/>
+        <TextBox Name="ss"  Style="{DynamicResource DefaultTextBoxStyle}" Text="ss" Margin="199,26,141,375" TextAlignment="Center"/>
+        <Label Content="HH:" HorizontalAlignment="Left" Height="20" Margin="64,64,0,0" VerticalAlignment="Top" Width="28" />
+        <Label Content="MM:" HorizontalAlignment="Left" Height="20" Margin="143,64,0,0" VerticalAlignment="Top" Width="28" />
+        <Label Content="SS:" HorizontalAlignment="Left" Height="20" Margin="228,64,0,0" VerticalAlignment="Top" Width="28" />
+        <Label Content="What do you want to do?" HorizontalAlignment="Left" Height="20" Margin="10,125,0,0" VerticalAlignment="Top" Width="167" />
+        <Label Content="info" Margin="43,202,63,136"/>
+        <ComboBox Name="Options" Height="32" Margin="41,164,0,0" Width="306">
+            <ComboBoxItem Content="Shut Down" Style="{DynamicResource DefaultComboBoxItemStyle}"/>
+            <ComboBoxItem Content="Lock PC" Style="{DynamicResource DefaultComboBoxItemStyle}"/>
+        </ComboBox>
+        <Button Content="Cancel Timer" Margin="298,27,0,0" VerticalAlignment="Top" Width="100" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button Content="Start" Height="36" Margin="228,388,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button Content="Cancel" Height="36" Margin="322,388,0,0" VerticalAlignment="Top" Width="76"/>
+
+
+
+
+    </Grid>
+</Window>

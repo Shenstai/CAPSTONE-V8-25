@@ -15,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Management;
 
 namespace DigitalWellbeingWPF.Views
 {
@@ -41,15 +42,9 @@ namespace DigitalWellbeingWPF.Views
             SystemSounds.Beep.Play();
         }
 
-        private void BtnOK_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
+        
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            DialogResult = true;
-        }
+        
 
         private void BtnCloseApp_Click(object sender, RoutedEventArgs e)
         {
@@ -59,7 +54,9 @@ namespace DigitalWellbeingWPF.Views
             {
                 foreach (Process p in ps)
                 {
-                    p.CloseMainWindow();
+                    p.Kill();
+                 
+
                 }
             }
             catch (Exception ex)

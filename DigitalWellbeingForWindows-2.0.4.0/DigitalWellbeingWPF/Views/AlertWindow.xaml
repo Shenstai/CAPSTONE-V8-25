@@ -9,11 +9,13 @@
         ui:WindowHelper.UseModernWindowStyle="True"
         Title="Time Limit Reached" Height="175" Width="350"
         ResizeMode="NoResize"
+        WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         Topmost="True"
         Background="{DynamicResource SystemControlPageBackgroundAltHighBrush}"
         Foreground="{DynamicResource SystemControlPageTextBaseHighBrush}"
-        Closing="Window_Closing">
+        
+       >
     <Grid Margin="15">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -36,8 +38,8 @@
         </TextBlock>
 
         <ui:SimpleStackPanel Grid.Row="1" HorizontalAlignment="Right" Orientation="Horizontal" Spacing="20">
-            <Button x:Name="BtnCloseApp" Content="Close the App" Click="BtnCloseApp_Click" />
-            <Button x:Name="BtnOK" Content="OK, Thanks!" Click="BtnOK_Click" Style="{StaticResource AccentButtonStyle}"/>
+            <Button x:Name="BtnCloseApp" Content="Close the App" Click="BtnCloseApp_Click" Margin="0,-10,0,10" />
+            
         </ui:SimpleStackPanel>
     </Grid>
 </Window>

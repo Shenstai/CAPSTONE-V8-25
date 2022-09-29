@@ -39,8 +39,11 @@ namespace DigitalWellbeingWPF
             
             if (this.username.Text == "admin" && this.password.Password == "admin")
             {
-                this.Close();
+                this.Hide();
+        
+                mainWindow.Focus();
                 mainWindow.Show();
+                
 
             }
            

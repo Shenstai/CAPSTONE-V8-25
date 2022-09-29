@@ -104,7 +104,7 @@
                 <lvc:CartesianChart.Resources>
                     <Style TargetType="lvc:StackedRowSeries">
                         <Setter Property="FontSize" Value="12"/>
-                        <Setter Property="FontWeight" Value="Medium"/>
+                        <Setter Property="FontWeight" Value="DemiBold"/>
                         <Setter Property="Foreground" Value="White"/>
                         <Setter Property="Stroke" Value="Transparent"/>
                         <Setter Property="StrokeThickness" Value="5"/>
@@ -154,16 +154,16 @@
                                   Series="{Binding DayPieChartData}"
                                   DataClick="AppUsageChart_DataClick"
                                   ChartLegend="{x:Null}" InnerRadius="{Binding PieChartInnerRadius}"
-                                  DisableAnimations="True" Hoverable="False"
-                                  Margin="20"
+                                  DisableAnimations="True" Hoverable="True"
+                                  Margin="15"
                                   VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                         <!-- Keep Margin for Labels -->
                         <lvc:PieChart.Resources>
                             <Style TargetType="lvc:PieSeries">
                                 <Setter Property="DataLabels" Value="True"/>
-                                <Setter Property="LabelPosition" Value="OutsideSlice"/>
+                                <Setter Property="LabelPosition" Value="InsideSlice"/>
                                 <Setter Property="FontSize" Value="14"/>
-                                <Setter Property="FontWeight" Value="Normal"/>
+                                <Setter Property="FontWeight" Value="DemiBold"/>
                                 <Setter Property="Foreground" Value="{DynamicResource SystemControlPageTextBaseHighBrush}"/>
 
                                 <Setter Property="Stroke" Value="{DynamicResource SystemControlPageBackgroundAltHighBrush}"/>
@@ -233,7 +233,7 @@
                 </ui:SimpleStackPanel>
 
                 <!-- Control : List View -->
-                <ui:ListView Grid.Row="1" x:Name="AppUsageListView" SelectionMode="Single" ItemsSource="{Binding DayListItems}">
+                <ui:ListView Grid.Row="1" x:Name="AppUsageListView" SelectionMode="Extended" ItemsSource="{Binding DayListItems}">
 
                     <ui:ListView.ItemContainerStyle>
                         <Style TargetType="ui:ListViewItem">

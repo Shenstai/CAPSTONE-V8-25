@@ -121,5 +121,6 @@ namespace DigitalWellbeingWPF.Views
             vm.OnNavigate();
         }
 
+      
     }
 }

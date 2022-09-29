@@ -33,6 +33,9 @@ namespace DigitalWellbeingWPF
         // Pages
         private DayAppUsagePage usagePage = new DayAppUsagePage();
         private SettingsPage settingsPage = new SettingsPage();
+        private AccountPage accountPage = new AccountPage();
+        private ParentalControlPage parentalControlPage = new ParentalControlPage();    
+        private JournalPage journalPage = new JournalPage();
 
         public MainWindow()
         {
@@ -64,11 +67,22 @@ namespace DigitalWellbeingWPF
 
             switch (selectedNavItem.Tag)
             {
+                case "journal":
+                    NavView.Header = "Activity Logs";
+                        ContentFrame.Content = journalPage;
+                    break;
+                case "parentalControl":
+                    NavView.Header = "Parental Control";
+                    ContentFrame.Content = parentalControlPage;
+                    
+                    break;
                 case "home":
                     NavView.Header = $"App Usage (Last {AppUsageViewModel.PrevDaysToLoad} Days)";
                     ContentFrame.Content = usagePage;
                     usagePage.OnNavigate();
                     break;
+
+
                 default:
                     NavView.Header = $"App Usage (Last {AppUsageViewModel.PrevDaysToLoad} Days)";
                     ContentFrame.Content = usagePage;

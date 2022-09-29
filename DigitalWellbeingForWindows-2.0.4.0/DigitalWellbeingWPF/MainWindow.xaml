@@ -17,12 +17,16 @@
             <ColumnDefinition Width="397*"/>
         </Grid.ColumnDefinitions>
         <ui:NavigationView x:Name="NavView"
+                           
                            SelectionChanged="NavView_SelectionChanged"
-                           IsBackButtonVisible="Collapsed" PaneDisplayMode= "LeftMinimal"
+                           IsBackButtonVisible="Collapsed" PaneDisplayMode= "LeftCompact"
                            PaneTitle="Vision" Grid.ColumnSpan="2">
 
             <ui:NavigationView.MenuItems>
                 <ui:NavigationViewItem Tag="home" Icon="Home" Content="Home"/>
+                <ui:NavigationViewItem Tag="parentalControl" Icon="People" Content="Parental Control"/>
+                <ui:NavigationViewItem Tag="journal" Icon="Clock" Content="Activity Logs"/>
+                
             </ui:NavigationView.MenuItems>
 
             <Frame x:Name="ContentFrame"
