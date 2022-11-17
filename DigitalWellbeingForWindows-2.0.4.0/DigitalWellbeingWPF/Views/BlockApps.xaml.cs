@@ -77,27 +77,14 @@ namespace DigitalWellbeingWPF.Views
             {
                 Directory.CreateDirectory(folderPath + @"blocklist.log");
             }
-           
 
-            catch (UnauthorizedAccessException)
-            {
-                FileAttributes attributes = File.GetAttributes(filePath);
-                if ((attributes = FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
-                {
-                    attributes &= ~FileAttributes.ReadOnly;
-                    File.SetAttributes(filePath, attributes);
-                    File.Delete(filePath);
-                }
-                else
-                {
-                    throw;
-                }
 
-            }
-            catch (IOException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+          
+         
 
 
 

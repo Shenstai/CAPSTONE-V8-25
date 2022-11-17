@@ -654,6 +654,7 @@ namespace DigitalWellbeingWPF.ViewModels
                 catch (FileNotFoundException)
                 {
                     // If not found, just return []
+                    File.Create($"{folderPath}{date:MM-dd-yyyy}.log"); ;
                     AppLogger.WriteLine($"CANNOT FIND: {folderPath}{date:MM-dd-yyyy}.log");
                     return appUsageList;
                 }
