@@ -77,14 +77,31 @@ namespace DigitalWellbeingWPF.Views
             {
                 Directory.CreateDirectory(folderPath + @"blocklist.log");
             }
+           
 
+            catch (UnauthorizedAccessException)
+            {
+                FileAttributes attributes = File.GetAttributes(filePath);
+                if ((attributes = FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
+                {
+                    attributes &= ~FileAttributes.ReadOnly;
+                    File.SetAttributes(filePath, attributes);
+                    File.Delete(filePath);
+                }
+                else
+                {
+                    throw;
+                }
 
-            catch (Exception ex)
+            }
+            catch (IOException ex)
             {
                 Console.WriteLine(ex.Message);
             }
-          
-         
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
 
 
@@ -104,8 +121,9 @@ namespace DigitalWellbeingWPF.Views
             {
                 string[] lines = { applist.Text };
                 
-                File.WriteAllLines(files, lines);
+                File.AppendAllLines(files, lines);
                 applist.Clear();
+                LoadBlockedApps();
             }
             catch (FileNotFoundException)
             {
@@ -144,7 +162,7 @@ namespace DigitalWellbeingWPF.Views
             string blockapps = folderPath + @"blocklist.log";
             try
             {
-                blockList.Items.Clear();        
+                //blockList.Items.Clear();        
                 List<string>  lines = new List<string>();
                 lines = File.ReadAllLines(blockapps).ToList();
                 // string readblock = File.ReadAllText(blockapps);
@@ -152,6 +170,7 @@ namespace DigitalWellbeingWPF.Views
                 //{
                 //  blockList.ItemsSource = readblock;
                 //}
+                
                 foreach (string line in lines)
                 {
                     blockList.ItemsSource = lines;
@@ -186,9 +205,26 @@ namespace DigitalWellbeingWPF.Views
 
         }
 
-        private void blockList_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        private void clearBlocked_button_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                //string temp = folderPath + @"temp.log";
+                string[] temp = { "" };
+                string filePath = folderPath + @"blocklist.log";
+                string linesToKeep = File.ReadAllLines(filePath).ToString();
 
+                File.WriteAllLines(filePath, temp);
+                LoadBlockedApps();
+                
+                // File.Delete(temp);
+                // File.Move(temp, filePath);
+
+            }
+            catch (FileNotFoundException)
+            {
+                File.Create(folderPath + @"temp.log");
+            }
         }
     }
 }

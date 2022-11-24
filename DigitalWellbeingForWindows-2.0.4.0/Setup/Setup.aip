@@ -98,11 +98,11 @@
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="ARPPRODUCTICON" Value="applogo.exe" Type="8"/>
-    <ROW Property="Manufacturer" Value="V8-25"/>
-    <ROW Property="ProductCode" Value="1033:{23BDB5ED-9C88-4B17-8D8F-E4BAD23614CA} " Type="16"/>
+    <ROW Property="Manufacturer" Value="v8-25"/>
+    <ROW Property="ProductCode" Value="1033:{DE1CCE59-EDA3-41E0-B4FD-E669778A2623} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Vision"/>
-    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="ProductVersion" Value="1.0"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:Force"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{D7DA3A0D-99E1-4FAC-B2CC-FEBB27BCA59A}"/>
@@ -238,7 +238,7 @@
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
-    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="..\..\..\Desktop\Builds" PackageFileName="Vision Installer [|ProductVersion]" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." PackageFileName="VisionSetup [|ProductVersion]" Languages="en" InstallationType="4" UseLargeSchema="true"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
     <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>

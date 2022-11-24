@@ -23,9 +23,10 @@
                 BorderBrush="{DynamicResource SystemControlBackgroundBaseLowRevealBackgroundBrush}" 
                  BorderThickness="1" Text="" VerticalAlignment="Top" Width="181" Height="191"/>
 
-        <Button Style="{DynamicResource DefaultButtonStyle}" x:Name="BlockButton" Content="Save" Margin="0,339,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.33,0.707" Click="Button_Click" HorizontalAlignment="Center"/>
+        <Button Style="{DynamicResource DefaultButtonStyle}" x:Name="BlockButton" Content="Save" Margin="175,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.33,0.707" Click="Button_Click"/>
 
         <ListView x:Name="blockList" SelectionMode ="Single" BorderBrush="{DynamicResource SystemControlBackgroundBaseLowRevealBackgroundBrush}" BorderThickness="1" Margin="482,109,137,0" Height="191" VerticalAlignment="Top"/>
+        <Button Style="{DynamicResource DefaultButtonStyle}" x:Name="clearBlocked_button" Content="Clear" Margin="549,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.33,0.707" Click="clearBlocked_button_Click" />
 
 
     </Grid>

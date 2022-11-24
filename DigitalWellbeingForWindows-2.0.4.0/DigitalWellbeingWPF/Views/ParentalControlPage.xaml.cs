@@ -160,6 +160,18 @@ namespace DigitalWellbeingWPF.Views
             
             try
             {
+                if(hours.Text == "")
+                {
+                    hours.Text = "0";
+                }
+                if (minutes.Text == "")
+                {
+                    minutes.Text = "0";
+                }
+                if (seconds.Text == "")
+                {
+                    seconds.Text = "0";
+                }
                 if (todo.Equals("shutdown"))
                 {
                      try

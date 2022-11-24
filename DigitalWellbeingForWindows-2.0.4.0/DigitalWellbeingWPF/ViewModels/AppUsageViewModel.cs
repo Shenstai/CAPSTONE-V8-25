@@ -619,7 +619,7 @@ namespace DigitalWellbeingWPF.ViewModels
 
                 try
                 {
-                    string text = await Task.Run(() => File.ReadAllText($"{folderPath}{date:MM-dd-yyyy}.log")); ;
+                   string text = await Task.Run(() => File.ReadAllText($"{folderPath}{date:MM-dd-yyyy}.log")); ;
                     string[] lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
 
                     // Parse .log data ROWS
@@ -654,7 +654,6 @@ namespace DigitalWellbeingWPF.ViewModels
                 catch (FileNotFoundException)
                 {
                     // If not found, just return []
-                    File.Create($"{folderPath}{date:MM-dd-yyyy}.log"); ;
                     AppLogger.WriteLine($"CANNOT FIND: {folderPath}{date:MM-dd-yyyy}.log");
                     return appUsageList;
                 }

@@ -17,6 +17,7 @@ namespace DigitalWellbeing.Core
         static readonly string settingsFolder = "settings";
         static readonly string autorunFileName = ".autorun";
         static readonly string activityLogsFolder = "activitylogs";
+        static readonly string detailedLogsFolder = "detailedlogs";
 
         public static readonly string AUTORUN_REGPATH = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run";
 #if DEBUG
@@ -55,6 +56,11 @@ namespace DigitalWellbeing.Core
         public static string ActivityLogsFolder
         {
             get => APP_LOCATION + $@"\{activityLogsFolder}\";
+        }
+
+        public static string DetailedLogsFolder
+        {
+            get => APP_LOCATION + $@"\{detailedLogsFolder}\";
         }
 
         public static string GetImageCacheLocation(string appName = "")

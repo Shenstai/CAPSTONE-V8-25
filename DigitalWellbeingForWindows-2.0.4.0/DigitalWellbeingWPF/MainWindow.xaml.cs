@@ -68,7 +68,7 @@ namespace DigitalWellbeingWPF
             switch (selectedNavItem.Tag)
             {
                 case "journal":
-                    NavView.Header = "Activity Logs";
+                    NavView.Header = "Activity History";
                         ContentFrame.Content = journalPage;
                     break;
                 case "parentalControl":

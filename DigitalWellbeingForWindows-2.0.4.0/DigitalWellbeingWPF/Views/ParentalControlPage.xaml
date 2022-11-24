@@ -69,7 +69,7 @@
                 </ui:ListViewItem>
 
                 <ui:ListView Style="{DynamicResource SettingListViewStyle}" Height="158">
-                    <ui:ListViewItem Style="{StaticResource SettingListItemStyle}" Height="159">
+                    <ui:ListViewItem Style="{StaticResource SettingListItemStyle}" Height="207">
                         <Grid x:Name="grid_Timer">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
@@ -90,14 +90,17 @@
                                 <ComboBoxItem Content="Lock" Selected="lock_Selected"/>
                             </ComboBox>
                             <ui:SimpleStackPanel Orientation="Horizontal" Grid.Column ="1">
-                                <TextBox x:Name="hours" Margin="106,52,-158,53" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                <TextBox x:Name="hours" Margin="106,52,-158,53" VerticalAlignment="Top" HorizontalAlignment="Left" />
                                 <TextBox x:Name="minutes" Margin="176,52,-228,53" VerticalAlignment="Top" HorizontalAlignment="Left"/>
                                 <TextBox x:Name="seconds" Margin="246,52,-298,53" VerticalAlignment="Top" HorizontalAlignment="Left"/>
                             </ui:SimpleStackPanel>
 
                             <ui:SimpleStackPanel Orientation="Horizontal" Grid.Column ="1">
-                                <Button x:Name="btn_Start" Margin="140,98,0,0" VerticalAlignment="Top" Height="31" Width="70" Content="Start" Click="btn_Start_Click"/>
-                                <Button x:Name="btn_Cancel" Margin="49,98,0,0" VerticalAlignment="Top" Height="31" Width="70" Content="Cancel" Click="btn_Cancel_Click"/>
+                                <Button x:Name="btn_Start" Margin="140,116,0,0" VerticalAlignment="Top" Height="31" Width="70" Content="Start" Click="btn_Start_Click"/>
+                                <Button x:Name="btn_Cancel" Margin="49,116,0,0" VerticalAlignment="Top" Height="31" Width="70" Content="Cancel" Click="btn_Cancel_Click"/>
+                                <Label Content="hh" HorizontalAlignment="Left" Width="16" Margin="-201,88,0,82"/>
+                                <Label Content="mm" HorizontalAlignment="Left" Width="27" Margin="-121,88,0,82"/>
+                                <Label Content="ss" HorizontalAlignment="Left" Width="16" Margin="-34,88,0,82"/>
                             </ui:SimpleStackPanel>
 
 
