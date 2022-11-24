@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="19.9" version="19.9" Modules="professional" RootPath="." Language="en" Id="{284E7EE4-575C-4968-83E5-60721177068E}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="MigrationUninstallCode" Value="{134B35D4-ADBB-489C-ABCE-E289D2813432}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 19.9 build de6d6401" ValueLocId="-"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll" Value="..\DigitalWellbeing.Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll_1" Value="..\DigitalWellbeing.Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe" Value="..\DigitalWellbeingService.NET4.6\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe.config" Value="..\DigitalWellbeingService.NET4.6\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.pdb" Value="..\DigitalWellbeingService.NET4.6\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe" Value="..\DigitalWellbeingWPF\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe.config" Value="..\DigitalWellbeingWPF\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.pdb" Value="..\DigitalWellbeingWPF\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_LiveCharts.Wpf.dll" Value="..\packages\LiveCharts.Wpf.0.9.7\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_LiveCharts.dll" Value="..\packages\LiveCharts.0.9.7\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Core.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Material.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Microns.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Modern.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.dll" Value="..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ModernWpf.Controls.dll" Value="..\packages\ModernWpfUI.0.9.4\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ModernWpf.dll" Value="..\packages\ModernWpfUI.0.9.4\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.ValueTuple.dll" Value="..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll" Value="DigitalWellbeing.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll_1" Value="DigitalWellbeing.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe" Value="DigitalWellbeingService.NET4.6.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe.config" Value="DigitalWellbeingService.NET4.6.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.pdb" Value="DigitalWellbeingService.NET4.6.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe" Value="DigitalWellbeingWPF.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe.config" Value="DigitalWellbeingWPF.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.pdb" Value="DigitalWellbeingWPF.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.Wpf.dll" Value="LiveCharts.Wpf.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.dll" Value="LiveCharts.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll" Value="MahApps.Metro.IconPacks.BootstrapIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll" Value="MahApps.Metro.IconPacks.BoxIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll" Value="MahApps.Metro.IconPacks.Codicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll" Value="MahApps.Metro.IconPacks.Coolicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Core.dll" Value="MahApps.Metro.IconPacks.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll" Value="MahApps.Metro.IconPacks.Entypo.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll" Value="MahApps.Metro.IconPacks.EvaIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll" Value="MahApps.Metro.IconPacks.FeatherIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll" Value="MahApps.Metro.IconPacks.FileIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll" Value="MahApps.Metro.IconPacks.FontAwesome.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll" Value="MahApps.Metro.IconPacks.Fontaudio.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll" Value="MahApps.Metro.IconPacks.Fontisto.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll" Value="MahApps.Metro.IconPacks.ForkAwesome.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll" Value="MahApps.Metro.IconPacks.Ionicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll" Value="MahApps.Metro.IconPacks.JamIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Material.dll" Value="MahApps.Metro.IconPacks.Material.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll" Value="MahApps.Metro.IconPacks.MaterialDesign.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll" Value="MahApps.Metro.IconPacks.MaterialLight.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Microns.dll" Value="MahApps.Metro.IconPacks.Microns.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Modern.dll" Value="MahApps.Metro.IconPacks.Modern.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll" Value="MahApps.Metro.IconPacks.Octicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll" Value="MahApps.Metro.IconPacks.PicolIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll" Value="MahApps.Metro.IconPacks.PixelartIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll" Value="MahApps.Metro.IconPacks.RPGAwesome.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll" Value="MahApps.Metro.IconPacks.RadixIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll" Value="MahApps.Metro.IconPacks.RemixIcon.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll" Value="MahApps.Metro.IconPacks.SimpleIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll" Value="MahApps.Metro.IconPacks.Typicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll" Value="MahApps.Metro.IconPacks.Unicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll" Value="MahApps.Metro.IconPacks.VaadinIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll" Value="MahApps.Metro.IconPacks.WeatherIcons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll" Value="MahApps.Metro.IconPacks.Zondicons.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.dll" Value="MahApps.Metro.IconPacks.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.Controls.dll" Value="ModernWpf.Controls.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.dll" Value="ModernWpf.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.ValueTuple.dll" Value="System.ValueTuple.dll"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="v8-25"/>
+    <ROW Property="ProductCode" Value="1033:{82676612-53C3-48CD-B5D1-B11A3E6CC838} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Vision"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{134B35D4-ADBB-489C-ABCE-E289D2813432}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME#MsiBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME#MsiBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0#MsiBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0#MsiBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000#MsiBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000#MsiBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003#MsiBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003#MsiBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Assets" Directory_Parent="TARGETDIR" DefaultDir="Assets" IsPseudoRoot="1"/>
+    <ROW Directory="DigitalWellbeingService.NET4.6_Dir" Directory_Parent="APPDIR" DefaultDir="DIGITA~1.6|DigitalWellbeingService.NET4.6"/>
+    <ROW Directory="DigitalWellbeingWPF_Dir" Directory_Parent="APPDIR" DefaultDir="DIGITA~1|DigitalWellbeingWPF"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{3CD4A055-D5E6-468A-BCC8-5B9AC2C43E65}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="DigitalWellbeingService.NET4.6_PrimaryOutput" ComponentId="{189DA208-212F-4DFF-B792-B15FE926BAAC}" Directory_="DigitalWellbeingService.NET4.6_Dir" Attributes="0" KeyPath="DigitalWellbeingService.NET4.6.exe"/>
+    <ROW Component="DigitalWellbeingService.NET4.6_References" ComponentId="{9261F459-CE7A-4712-AE0E-F04B10694CB4}" Directory_="DigitalWellbeingService.NET4.6_Dir" Attributes="0" KeyPath="DigitalWellbeing.Core.dll"/>
+    <ROW Component="DigitalWellbeingService.NET4.6_SymbolsOutput" ComponentId="{E235343E-E3D2-40EC-9656-724C4931E9B5}" Directory_="DigitalWellbeingService.NET4.6_Dir" Attributes="0" KeyPath="DigitalWellbeingService.NET4.6.pdb"/>
+    <ROW Component="DigitalWellbeingWPF_PrimaryOutput" ComponentId="{9BCEA4EE-AED8-4904-BF63-F4E48CC5AB1D}" Directory_="DigitalWellbeingWPF_Dir" Attributes="0" KeyPath="DigitalWellbeingWPF.exe"/>
+    <ROW Component="DigitalWellbeingWPF_References" ComponentId="{94BC99E9-DB60-4AA4-96CF-8FB5302DFF44}" Directory_="DigitalWellbeingWPF_Dir" Attributes="0" KeyPath="System.ValueTuple.dll"/>
+    <ROW Component="DigitalWellbeingWPF_SymbolsOutput" ComponentId="{F4902C05-B40A-4CA3-9802-7BAD72EC3236}" Directory_="DigitalWellbeingWPF_Dir" Attributes="0" KeyPath="DigitalWellbeingWPF.pdb"/>
+    <ROW Component="ProductInformation" ComponentId="{EF59A649-B00A-4053-9251-29F7298FC601}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{B0F7A9B8-4594-46E9-8976-A6A44D593DA6}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="Store50x50Logo.scale100.png" ComponentId="{0BE4958B-61FD-48CD-B9D8-1FF6529A8188}" Directory_="Assets" Attributes="0" KeyPath="Store50x50Logo.scale100.png" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="AiAppXAssets" Title="AiAppXAssets" Description="Description" Display="3" Level="0" Directory_="APPDIR" Attributes="0" Options="271" Builds="BuildUwpAppX"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Store50x50Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="STORE5~1.PNG|Store50x50Logo.scale-100.png" Attributes="0" SourcePath="&lt;AI_RES&gt;appx\StoreLogo.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~1.PNG|VisionSquare44x44Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~2.PNG|VisionSquare150x150Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingService.NET4.6.exe" Component_="DigitalWellbeingService.NET4.6_PrimaryOutput" FileName="DIGITA~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingService.NET4.6.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="VisionSquare71x71Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~3.PNG|VisionSquare71x71Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~4.PNG|VisionSquare71x71Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~5.PNG|VisionSquare71x71Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~6.PNG|VisionSquare71x71Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~7.PNG|VisionSquare71x71Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~8.PNG|VisionSquare71x71Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISION~9.PNG|VisionSquare71x71Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~10.PNG|VisionSquare71x71Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~11.PNG|VisionSquare71x71Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~12.PNG|VisionSquare71x71Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~13.PNG|VisionSquare71x71Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~14.PNG|VisionSquare71x71Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~15.PNG|VisionSquare71x71Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~16.PNG|VisionSquare71x71Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionSquare71x71Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~17.PNG|VisionSquare71x71Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionSquare71x71Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~18.PNG|VisionSquare150x150Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~19.PNG|VisionSquare150x150Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~20.PNG|VisionSquare150x150Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~21.PNG|VisionSquare150x150Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~22.PNG|VisionSquare150x150Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~23.PNG|VisionSquare150x150Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~24.PNG|VisionSquare150x150Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~25.PNG|VisionSquare150x150Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~26.PNG|VisionSquare150x150Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~27.PNG|VisionSquare150x150Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~28.PNG|VisionSquare150x150Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~29.PNG|VisionSquare150x150Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~30.PNG|VisionSquare150x150Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionSquare150x150Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~31.PNG|VisionSquare150x150Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionSquare150x150Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~32.PNG|VisionWide310x150Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~33.PNG|VisionWide310x150Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~34.PNG|VisionWide310x150Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~35.PNG|VisionWide310x150Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~36.PNG|VisionWide310x150Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~37.PNG|VisionWide310x150Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~38.PNG|VisionWide310x150Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~39.PNG|VisionWide310x150Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~40.PNG|VisionWide310x150Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~41.PNG|VisionWide310x150Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~42.PNG|VisionWide310x150Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~43.PNG|VisionWide310x150Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~44.PNG|VisionWide310x150Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~45.PNG|VisionWide310x150Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionWide310x150Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~46.PNG|VisionWide310x150Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionWide310x150Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~47.PNG|VisionSquare310x310Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~48.PNG|VisionSquare310x310Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~49.PNG|VisionSquare310x310Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~50.PNG|VisionSquare310x310Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~51.PNG|VisionSquare310x310Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~52.PNG|VisionSquare310x310Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~53.PNG|VisionSquare310x310Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~54.PNG|VisionSquare310x310Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~55.PNG|VisionSquare310x310Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~56.PNG|VisionSquare310x310Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~57.PNG|VisionSquare310x310Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~58.PNG|VisionSquare310x310Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~59.PNG|VisionSquare310x310Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~60.PNG|VisionSquare310x310Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionSquare310x310Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~61.PNG|VisionSquare310x310Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionSquare310x310Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize16.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~62.PNG|VisionSquare44x44Logo.targetsize-16.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-16.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize16_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~63.PNG|VisionSquare44x44Logo.targetsize-16_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-16_altform-unplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize16_altformlightunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~64.PNG|VisionSquare44x44Logo.targetsize-16_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-16_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~65.PNG|VisionSquare44x44Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~66.PNG|VisionSquare44x44Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize24.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~67.PNG|VisionSquare44x44Logo.targetsize-24.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-24.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize24_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~68.PNG|VisionSquare44x44Logo.targetsize-24_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-24_altform-unplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize24_altformlightunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~69.PNG|VisionSquare44x44Logo.targetsize-24_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-24_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~70.PNG|VisionSquare44x44Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~71.PNG|VisionSquare44x44Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize32.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~72.PNG|VisionSquare44x44Logo.targetsize-32.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-32.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize32_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~73.PNG|VisionSquare44x44Logo.targetsize-32_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-32_altform-unplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize32_altformlightunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~74.PNG|VisionSquare44x44Logo.targetsize-32_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-32_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~75.PNG|VisionSquare44x44Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~76.PNG|VisionSquare44x44Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~77.PNG|VisionSquare44x44Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize48.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~78.PNG|VisionSquare44x44Logo.targetsize-48.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-48.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize48_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~79.PNG|VisionSquare44x44Logo.targetsize-48_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-48_altform-unplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize48_altformlightunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~80.PNG|VisionSquare44x44Logo.targetsize-48_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-48_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~81.PNG|VisionSquare44x44Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~82.PNG|VisionSquare44x44Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~83.PNG|VisionSquare44x44Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~84.PNG|VisionSquare44x44Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~85.PNG|VisionSquare44x44Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~86.PNG|VisionSquare44x44Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize256.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~87.PNG|VisionSquare44x44Logo.targetsize-256.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-256.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize256_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~88.PNG|VisionSquare44x44Logo.targetsize-256_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-256_altform-unplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.targetsize256_altformlightunplated.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~89.PNG|VisionSquare44x44Logo.targetsize-256_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.targetsize-256_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="VisionSquare44x44Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~90.PNG|VisionSquare44x44Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionSquare44x44Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~91.PNG|VisionSplashScreen.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-100.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~92.PNG|VisionSplashScreen.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~93.PNG|VisionSplashScreen.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~94.PNG|VisionSplashScreen.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~95.PNG|VisionSplashScreen.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~96.PNG|VisionSplashScreen.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~97.PNG|VisionSplashScreen.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~98.PNG|VisionSplashScreen.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISIO~99.PNG|VisionSplashScreen.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~100.PNG|VisionSplashScreen.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~101.PNG|VisionSplashScreen.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~102.PNG|VisionSplashScreen.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~103.PNG|VisionSplashScreen.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~104.PNG|VisionSplashScreen.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionSplashScreen.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~105.PNG|VisionSplashScreen.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionSplashScreen.scale-500.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~106.PNG|VisionBadgeLogo.scale-100.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-100.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~107.PNG|VisionBadgeLogo.scale-120.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-120.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~108.PNG|VisionBadgeLogo.scale-125.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-125.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~109.PNG|VisionBadgeLogo.scale-140.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-140.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~110.PNG|VisionBadgeLogo.scale-150.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-150.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~111.PNG|VisionBadgeLogo.scale-160.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-160.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~112.PNG|VisionBadgeLogo.scale-180.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-180.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~113.PNG|VisionBadgeLogo.scale-200.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-200.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~114.PNG|VisionBadgeLogo.scale-220.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-220.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~115.PNG|VisionBadgeLogo.scale-225.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-225.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~116.PNG|VisionBadgeLogo.scale-240.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-240.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~117.PNG|VisionBadgeLogo.scale-250.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-250.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~118.PNG|VisionBadgeLogo.scale-300.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-300.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~119.PNG|VisionBadgeLogo.scale-400.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-400.png" SelfReg="false"/>
+    <ROW File="VisionBadgeLogo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="VISI~120.PNG|VisionBadgeLogo.scale-500.png" Attributes="0" SourcePath="Generated Assets\VisionBadgeLogo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingService.NET4.6.exe.config" Component_="DigitalWellbeingService.NET4.6_PrimaryOutput" FileName="DIGITA~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingService.NET4.6.exe.config&gt;" SelfReg="false"/>
+    <ROW File="DigitalWellbeing.Core.dll" Component_="DigitalWellbeingService.NET4.6_References" FileName="DIGITA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="DigitalWellbeingService.NET4.6.pdb" Component_="DigitalWellbeingService.NET4.6_SymbolsOutput" FileName="DIGITA~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingService.NET4.6.pdb&gt;" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPF.exe" Component_="DigitalWellbeingWPF_PrimaryOutput" FileName="DIGITA~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingWPF.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~1.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~2.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~3.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~4.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~5.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~6.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~7.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~8.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGITA~9.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~10.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~11.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~12.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~13.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~14.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare71x71Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~15.PNG|DigitalWellbeingWPFSquare71x71Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare71x71Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~16.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~17.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~18.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~19.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~20.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~21.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~22.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~23.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~24.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~25.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~26.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~27.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~28.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~29.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare150x150Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~30.PNG|DigitalWellbeingWPFSquare150x150Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare150x150Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~31.PNG|DigitalWellbeingWPFWide310x150Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~32.PNG|DigitalWellbeingWPFWide310x150Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~33.PNG|DigitalWellbeingWPFWide310x150Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~34.PNG|DigitalWellbeingWPFWide310x150Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~35.PNG|DigitalWellbeingWPFWide310x150Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~36.PNG|DigitalWellbeingWPFWide310x150Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~37.PNG|DigitalWellbeingWPFWide310x150Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~38.PNG|DigitalWellbeingWPFWide310x150Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~39.PNG|DigitalWellbeingWPFWide310x150Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~40.PNG|DigitalWellbeingWPFWide310x150Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~41.PNG|DigitalWellbeingWPFWide310x150Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~42.PNG|DigitalWellbeingWPFWide310x150Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~43.PNG|DigitalWellbeingWPFWide310x150Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~44.PNG|DigitalWellbeingWPFWide310x150Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFWide310x150Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~45.PNG|DigitalWellbeingWPFWide310x150Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFWide310x150Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~46.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~47.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~48.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~49.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~50.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~51.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~52.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~53.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~54.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~55.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~56.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~57.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~58.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~59.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare310x310Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~60.PNG|DigitalWellbeingWPFSquare310x310Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare310x310Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~61.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize16.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~62.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-16.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-16.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize16_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~63.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-16_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-16_altform-unplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize16_altformlightunplated." Component_="Store50x50Logo.scale100.png" FileName="DIGIT~64.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-16_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-16_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~65.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~66.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize24.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~67.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-24.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-24.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize24_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~68.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-24_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-24_altform-unplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize24_altformlightunplated." Component_="Store50x50Logo.scale100.png" FileName="DIGIT~69.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-24_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-24_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~70.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~71.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize32.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~72.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-32.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-32.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize32_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~73.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-32_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-32_altform-unplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize32_altformlightunplated." Component_="Store50x50Logo.scale100.png" FileName="DIGIT~74.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-32_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-32_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~75.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~76.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~77.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize48.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~78.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-48.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-48.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize48_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~79.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-48_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-48_altform-unplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize48_altformlightunplated." Component_="Store50x50Logo.scale100.png" FileName="DIGIT~80.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-48_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-48_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~81.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~82.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~83.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~84.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~85.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~86.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize256.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~87.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-256.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-256.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize256_altformunplated.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~88.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-256_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-256_altform-unplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.targetsize256_altformlightunplated" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~89.PNG|DigitalWellbeingWPFSquare44x44Logo.targetsize-256_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.targetsize-256_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSquare44x44Logo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~90.PNG|DigitalWellbeingWPFSquare44x44Logo.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSquare44x44Logo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~91.PNG|DigitalWellbeingWPFSplashScreen.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~92.PNG|DigitalWellbeingWPFSplashScreen.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~93.PNG|DigitalWellbeingWPFSplashScreen.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~94.PNG|DigitalWellbeingWPFSplashScreen.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~95.PNG|DigitalWellbeingWPFSplashScreen.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~96.PNG|DigitalWellbeingWPFSplashScreen.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~97.PNG|DigitalWellbeingWPFSplashScreen.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~98.PNG|DigitalWellbeingWPFSplashScreen.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGIT~99.PNG|DigitalWellbeingWPFSplashScreen.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~100.PNG|DigitalWellbeingWPFSplashScreen.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~101.PNG|DigitalWellbeingWPFSplashScreen.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~102.PNG|DigitalWellbeingWPFSplashScreen.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~103.PNG|DigitalWellbeingWPFSplashScreen.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~104.PNG|DigitalWellbeingWPFSplashScreen.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFSplashScreen.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~105.PNG|DigitalWellbeingWPFSplashScreen.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFSplashScreen.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~106.PNG|DigitalWellbeingWPFBadgeLogo.scale-100.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-100.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale120.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~107.PNG|DigitalWellbeingWPFBadgeLogo.scale-120.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-120.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~108.PNG|DigitalWellbeingWPFBadgeLogo.scale-125.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-125.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale140.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~109.PNG|DigitalWellbeingWPFBadgeLogo.scale-140.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-140.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~110.PNG|DigitalWellbeingWPFBadgeLogo.scale-150.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-150.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale160.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~111.PNG|DigitalWellbeingWPFBadgeLogo.scale-160.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-160.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale180.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~112.PNG|DigitalWellbeingWPFBadgeLogo.scale-180.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-180.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~113.PNG|DigitalWellbeingWPFBadgeLogo.scale-200.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-200.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale220.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~114.PNG|DigitalWellbeingWPFBadgeLogo.scale-220.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-220.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale225.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~115.PNG|DigitalWellbeingWPFBadgeLogo.scale-225.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-225.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale240.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~116.PNG|DigitalWellbeingWPFBadgeLogo.scale-240.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-240.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale250.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~117.PNG|DigitalWellbeingWPFBadgeLogo.scale-250.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-250.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale300.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~118.PNG|DigitalWellbeingWPFBadgeLogo.scale-300.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-300.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~119.PNG|DigitalWellbeingWPFBadgeLogo.scale-400.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-400.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPFBadgeLogo.scale500.png" Component_="Store50x50Logo.scale100.png" FileName="DIGI~120.PNG|DigitalWellbeingWPFBadgeLogo.scale-500.png" Attributes="0" SourcePath="Generated Assets\DigitalWellbeingWPFBadgeLogo.scale-500.png" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPF.exe.config" Component_="DigitalWellbeingWPF_PrimaryOutput" FileName="DIGITA~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingWPF.exe.config&gt;" SelfReg="false"/>
+    <ROW File="DigitalWellbeing.Core.dll_1" Component_="DigitalWellbeingWPF_References" FileName="DIGITA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll_1&gt;" SelfReg="false"/>
+    <ROW File="LiveCharts.dll" Component_="DigitalWellbeingWPF_References" FileName="LIVECH~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_LiveCharts.dll&gt;" SelfReg="false"/>
+    <ROW File="LiveCharts.Wpf.dll" Component_="DigitalWellbeingWPF_References" FileName="LIVECH~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.Wpf.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_LiveCharts.Wpf.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.BootstrapIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.BoxIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Codicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Coolicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Core.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Entypo.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.EvaIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAPP~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.FeatherIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.FileIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Fontaudio.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.FontAwesome.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Fontisto.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.ForkAwesome.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Ionicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.JamIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Material.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Material.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Material.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.MaterialDesign.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.MaterialLight.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Microns.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Microns.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Microns.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Modern.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Modern.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Modern.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Octicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.PicolIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.PixelartIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.RadixIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~26.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.RemixIcon.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~27.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.RPGAwesome.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~28.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.SimpleIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~29.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Typicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~30.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Unicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~31.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.VaadinIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~32.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.WeatherIcons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~33.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll&gt;" SelfReg="false"/>
+    <ROW File="MahApps.Metro.IconPacks.Zondicons.dll" Component_="DigitalWellbeingWPF_References" FileName="MAHAP~34.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll&gt;" SelfReg="false"/>
+    <ROW File="ModernWpf.Controls.dll" Component_="DigitalWellbeingWPF_References" FileName="MODERN~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.Controls.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ModernWpf.Controls.dll&gt;" SelfReg="false"/>
+    <ROW File="ModernWpf.dll" Component_="DigitalWellbeingWPF_References" FileName="MODERN~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ModernWpf.dll&gt;" SelfReg="false"/>
+    <ROW File="System.ValueTuple.dll" Component_="DigitalWellbeingWPF_References" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.ValueTuple.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.ValueTuple.dll&gt;" SelfReg="false"/>
+    <ROW File="DigitalWellbeingWPF.pdb" Component_="DigitalWellbeingWPF_SymbolsOutput" FileName="DIGITA~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DigitalWellbeingWPF.pdb&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeing.Core.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeing.Core.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeing.Core.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingService.NET4.6.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingService.NET4.6.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingService.NET4.6.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingService.NET4.6.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingWPF.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingWPF.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DigitalWellbeingWPF.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_DigitalWellbeingWPF.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_LiveCharts.Wpf.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_LiveCharts.Wpf.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.Wpf.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_LiveCharts.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_LiveCharts.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_LiveCharts.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BootstrapIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.BoxIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Codicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Coolicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Entypo.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.EvaIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FeatherIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FileIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.FontAwesome.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontaudio.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Fontisto.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.ForkAwesome.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Ionicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.JamIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Material.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Material.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Material.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialDesign.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.MaterialLight.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Microns.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Microns.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Microns.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Modern.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Modern.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Modern.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Octicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PicolIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.PixelartIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RPGAwesome.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RadixIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.RemixIcon.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.SimpleIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Typicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Unicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.VaadinIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.WeatherIcons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.Zondicons.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MahApps.Metro.IconPacks.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MahApps.Metro.IconPacks.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MahApps.Metro.IconPacks.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ModernWpf.Controls.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ModernWpf.Controls.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.Controls.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ModernWpf.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ModernWpf.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ModernWpf.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.ValueTuple.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.ValueTuple.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.ValueTuple.dll]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppXCfgComponent">
+    <ROW ID="Configuration" Order="1" ManifestFile="AppxManifest.xml" TargetOs="4" AutoUpdatesFrequency="0" AutoUpdatesOptions="0" ManifestBundleFile="AppxBundleManifest.xml"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="BuildUwpAppX" BuildName="BuildUwpAppX" BuildOrder="2" BuildType="7" PackageFolder="BuildUwpAppXSetupFiles" Languages="en" UwpTargetDesktop="TargetDeviceFamily" UwpAppInstallerManifestFile="MsixAppInstallerData.xml"/>
+    <ROW BuildKey="BuildUwpAppXSubBuild" BuildName="x64" BuildOrder="3" BuildType="8" ParentBuild="BuildUwpAppX"/>
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ROW BuildKey="MsiBuild" BuildName="MsiBuild" BuildOrder="4" BuildType="0" PackageFolder="..\Vision_Setup" PackageFileName="VisionSetups" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+    <ATTRIBUTE name="TranslateSegments" value="0b00000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlAttributeComponent">
+    <ROW XmlAttribute="Alias" XmlElement="ExecutionAlias" Name="Alias" Flags="0" Order="0" Value="[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingService.NET4.6.exe"/>
+    <ROW XmlAttribute="Alias_1" XmlElement="ExecutionAlias_1" Name="Alias" Flags="0" Order="0" Value="[|AI_PROPPATH_FILENAME_PERBUILD_DigitalWellbeingWPF.exe"/>
+    <ROW XmlAttribute="BackgroundColor" XmlElement="VisualElements" Name="BackgroundColor" Flags="0" Order="0" Value="transparent"/>
+    <ROW XmlAttribute="BackgroundColor_1" XmlElement="VisualElements_1" Name="BackgroundColor" Flags="0" Order="0" Value="transparent"/>
+    <ROW XmlAttribute="BadgeLogo" XmlElement="LockScreen" Name="BadgeLogo" Flags="0" Order="0" FileId="VisionBadgeLogo.scale100.png"/>
+    <ROW XmlAttribute="BadgeLogo_1" XmlElement="LockScreen_1" Name="BadgeLogo" Flags="0" Order="0" FileId="DigitalWellbeingWPFBadgeLogo.scale100.png"/>
+    <ROW XmlAttribute="Category" XmlElement="Extension" Name="Category" Flags="0" Order="0" Value="windows.appExecutionAlias"/>
+    <ROW XmlAttribute="Category_1" XmlElement="Extension_1" Name="Category" Flags="0" Order="0" Value="windows.desktopAppMigration"/>
+    <ROW XmlAttribute="Category_2" XmlElement="Extension_2" Name="Category" Flags="0" Order="0" Value="windows.appExecutionAlias"/>
+    <ROW XmlAttribute="Category_3" XmlElement="Extension_3" Name="Category" Flags="0" Order="0" Value="windows.desktopAppMigration"/>
+    <ROW XmlAttribute="Description" XmlElement="VisualElements" Name="Description" Flags="0" Order="0" Value="DigitalWellbeingService.NET4.6"/>
+    <ROW XmlAttribute="Description_1" XmlElement="VisualElements_1" Name="Description" Flags="0" Order="0" Value="DigitalWellbeingWPF"/>
+    <ROW XmlAttribute="DisplayName" XmlElement="VisualElements" Name="DisplayName" Flags="0" Order="0" Value="DigitalWellbeingService.NET4.6"/>
+    <ROW XmlAttribute="DisplayName_1" XmlElement="VisualElements_1" Name="DisplayName" Flags="0" Order="0" Value="DigitalWellbeingWPF"/>
+    <ROW XmlAttribute="EntryPoint" XmlElement="Application" Name="EntryPoint" Flags="0" Order="0" Value="Windows.FullTrustApplication"/>
+    <ROW XmlAttribute="EntryPoint_1" XmlElement="Extension_1" Name="EntryPoint" Flags="0" Order="0" Value="Windows.FullTrustApplication"/>
+    <ROW XmlAttribute="EntryPoint_2" XmlElement="Application_1" Name="EntryPoint" Flags="0" Order="0" Value="Windows.FullTrustApplication"/>
+    <ROW XmlAttribute="EntryPoint_3" XmlElement="Extension_3" Name="EntryPoint" Flags="0" Order="0" Value="Windows.FullTrustApplication"/>
+    <ROW XmlAttribute="Executable" XmlElement="Application" Name="Executable" Flags="0" Order="0" FileId="DigitalWellbeingService.NET4.6.exe"/>
+    <ROW XmlAttribute="Executable_1" XmlElement="Extension_1" Name="Executable" Flags="0" Order="0" FileId="DigitalWellbeingService.NET4.6.exe"/>
+    <ROW XmlAttribute="Executable_2" XmlElement="Application_1" Name="Executable" Flags="0" Order="0" FileId="DigitalWellbeingWPF.exe"/>
+    <ROW XmlAttribute="Executable_3" XmlElement="Extension_3" Name="Executable" Flags="0" Order="0" FileId="DigitalWellbeingWPF.exe"/>
+    <ROW XmlAttribute="Id" XmlElement="Application" Name="Id" Flags="0" Order="0" Value="Vision"/>
+    <ROW XmlAttribute="Id_1" XmlElement="Application_1" Name="Id" Flags="0" Order="0" Value="DigitalWellbeingWPF"/>
+    <ROW XmlAttribute="IgnorableNamespaces" XmlElement="AppInstallerUX" Name="IgnorableNamespaces" Flags="0" Order="0" Value="ux ux2"/>
+    <ROW XmlAttribute="Image" XmlElement="SplashScreen" Name="Image" Flags="0" Order="0" FileId="VisionSplashScreen.scale100.png"/>
+    <ROW XmlAttribute="Image_1" XmlElement="SplashScreen_1" Name="Image" Flags="0" Order="0" FileId="DigitalWellbeingWPFSplashScreen.scale100.png"/>
+    <ROW XmlAttribute="Language" XmlElement="Resource" Name="Language" Flags="0" Order="0" Value="en-US"/>
+    <ROW XmlAttribute="MaxVersionTested" XmlElement="TargetDeviceFamily" Name="MaxVersionTested" Flags="0" Order="0" Value="10.0.22000.0"/>
+    <ROW XmlAttribute="MinVersion" XmlElement="TargetDeviceFamily" Name="MinVersion" Flags="0" Order="0" Value="10.0.17763.0"/>
+    <ROW XmlAttribute="Name" XmlElement="Identity" Name="Name" Flags="0" Order="0" Value="v8-25.Vision"/>
+    <ROW XmlAttribute="Name_1" XmlElement="TargetDeviceFamily" Name="Name" Flags="0" Order="0" Value="Windows.Desktop"/>
+    <ROW XmlAttribute="Name_2" XmlElement="Capability" Name="Name" Flags="0" Order="0" Value="runFullTrust"/>
+    <ROW XmlAttribute="Notification" XmlElement="LockScreen" Name="Notification" Flags="0" Order="0" Value="badge"/>
+    <ROW XmlAttribute="Notification_1" XmlElement="LockScreen_1" Name="Notification" Flags="0" Order="0" Value="badge"/>
+    <ROW XmlAttribute="Preference" XmlElement="Rotation" Name="Preference" Flags="0" Order="0" Value="portrait"/>
+    <ROW XmlAttribute="Preference_1" XmlElement="Rotation_1" Name="Preference" Flags="0" Order="0" Value="landscape"/>
+    <ROW XmlAttribute="Preference_2" XmlElement="Rotation_2" Name="Preference" Flags="0" Order="0" Value="portrait"/>
+    <ROW XmlAttribute="Preference_3" XmlElement="Rotation_3" Name="Preference" Flags="0" Order="0" Value="landscape"/>
+    <ROW XmlAttribute="ProcessorArchitecture" XmlElement="Identity" Name="ProcessorArchitecture" Flags="0" Order="0" Value="x64"/>
+    <ROW XmlAttribute="Publisher" XmlElement="Identity" Name="Publisher" Flags="0" Order="0" Value="CN=v8-25"/>
+    <ROW XmlAttribute="Scale" XmlElement="Resource_1" Name="Scale" Flags="0" Order="0" Value="100"/>
+    <ROW XmlAttribute="ShortcutPath" XmlElement="DesktopApp" Name="ShortcutPath" Flags="0" Order="0" Value="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Vision\DigitalWellbeingService.NET4.6.lnk"/>
+    <ROW XmlAttribute="ShortcutPath_1" XmlElement="DesktopApp_1" Name="ShortcutPath" Flags="0" Order="0" Value="%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Vision\DigitalWellbeingService.NET4.6.lnk"/>
+    <ROW XmlAttribute="ShortcutPath_2" XmlElement="DesktopApp_2" Name="ShortcutPath" Flags="0" Order="0" Value="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Vision\DigitalWellbeingWPF.lnk"/>
+    <ROW XmlAttribute="ShortcutPath_3" XmlElement="DesktopApp_3" Name="ShortcutPath" Flags="0" Order="0" Value="%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Vision\DigitalWellbeingWPF.lnk"/>
+    <ROW XmlAttribute="Square150x150Logo" XmlElement="VisualElements" Name="Square150x150Logo" Flags="0" Order="0" FileId="VisionSquare150x150Logo.scale100.png"/>
+    <ROW XmlAttribute="Square150x150Logo_1" XmlElement="VisualElements_1" Name="Square150x150Logo" Flags="0" Order="0" FileId="DigitalWellbeingWPFSquare150x150Logo.scale100.png"/>
+    <ROW XmlAttribute="Square310x310Logo" XmlElement="DefaultTile" Name="Square310x310Logo" Flags="0" Order="0" FileId="VisionSquare310x310Logo.scale100.png"/>
+    <ROW XmlAttribute="Square310x310Logo_1" XmlElement="DefaultTile_1" Name="Square310x310Logo" Flags="0" Order="0" FileId="DigitalWellbeingWPFSquare310x310Logo.scale100.png"/>
+    <ROW XmlAttribute="Square44x44Logo" XmlElement="VisualElements" Name="Square44x44Logo" Flags="0" Order="0" FileId="VisionSquare44x44Logo.scale100.png"/>
+    <ROW XmlAttribute="Square44x44Logo_1" XmlElement="VisualElements_1" Name="Square44x44Logo" Flags="0" Order="0" FileId="DigitalWellbeingWPFSquare44x44Logo.scale100.png"/>
+    <ROW XmlAttribute="Square71x71Logo" XmlElement="DefaultTile" Name="Square71x71Logo" Flags="0" Order="0" FileId="VisionSquare71x71Logo.scale100.png"/>
+    <ROW XmlAttribute="Square71x71Logo_1" XmlElement="DefaultTile_1" Name="Square71x71Logo" Flags="0" Order="0" FileId="DigitalWellbeingWPFSquare71x71Logo.scale100.png"/>
+    <ROW XmlAttribute="Version" XmlElement="Identity" Name="Version" Flags="0" Order="0" Value="1.0.0.0"/>
+    <ROW XmlAttribute="Version_1" XmlElement="AppInstallerUX" Name="Version" Flags="0" Order="0" Value="1.0.0"/>
+    <ROW XmlAttribute="Wide310x150Logo" XmlElement="DefaultTile" Name="Wide310x150Logo" Flags="0" Order="0" FileId="VisionWide310x150Logo.scale100.png"/>
+    <ROW XmlAttribute="Wide310x150Logo_1" XmlElement="DefaultTile_1" Name="Wide310x150Logo" Flags="0" Order="0" FileId="DigitalWellbeingWPFWide310x150Logo.scale100.png"/>
+    <ROW XmlAttribute="xmlns" XmlElement="AppInstallerUX" Name="xmlns" Flags="0" Order="0" Value="http://schemas.microsoft.com/msix/appinstallerux"/>
+    <ROW XmlAttribute="xmlnsux" XmlElement="AppInstallerUX" Name="xmlns:ux" Flags="0" Order="0" Value="http://schemas.microsoft.com/msix/appinstallerux"/>
+    <ROW XmlAttribute="xmlnsux2" XmlElement="AppInstallerUX" Name="xmlns:ux2" Flags="0" Order="0" Value="http://schemas.microsoft.com/msix/appinstallerux"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlElementComponent">
+    <ROW XmlElement="AppExecutionAlias" ParentElement="Extension" Name="AppExecutionAlias" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="AppExecutionAlias_1" ParentElement="Extension_2" Name="AppExecutionAlias" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="AppInstallerUX" Name="AppInstallerUX" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Application" ParentElement="Applications" Name="Application" Order="0" Flags="0" Type="4"/>
+    <ROW XmlElement="Application_1" ParentElement="Applications" Name="Application" Order="1" Flags="0" Type="4"/>
+    <ROW XmlElement="Applications" ParentElement="Package" Name="Applications" Order="3" Flags="0" Type="3"/>
+    <ROW XmlElement="Bundle" Name="Bundle" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Capabilities" ParentElement="Package" Name="Capabilities" Order="5" Flags="0" Type="0"/>
+    <ROW XmlElement="Capability" ParentElement="Capabilities" Name="Capability" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="DefaultTile" ParentElement="VisualElements" Name="DefaultTile" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="DefaultTile_1" ParentElement="VisualElements_1" Name="DefaultTile" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Dependencies" ParentElement="Package" Name="Dependencies" Order="4" Flags="0" Type="0"/>
+    <ROW XmlElement="DesktopApp" ParentElement="DesktopAppMigration" Name="DesktopApp" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="DesktopAppMigration" ParentElement="Extension_1" Name="DesktopAppMigration" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="DesktopAppMigration_1" ParentElement="Extension_3" Name="DesktopAppMigration" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="DesktopApp_1" ParentElement="DesktopAppMigration" Name="DesktopApp" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="DesktopApp_2" ParentElement="DesktopAppMigration_1" Name="DesktopApp" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="DesktopApp_3" ParentElement="DesktopAppMigration_1" Name="DesktopApp" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="DisplayName" ParentElement="Properties" Name="DisplayName" Order="1" Flags="0" Text="Vision" Type="0"/>
+    <ROW XmlElement="ExecutionAlias" ParentElement="AppExecutionAlias" Name="ExecutionAlias" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="ExecutionAlias_1" ParentElement="AppExecutionAlias_1" Name="ExecutionAlias" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Extension" ParentElement="Extensions" Name="Extension" Order="0" Flags="0" Type="54"/>
+    <ROW XmlElement="Extension_1" ParentElement="Extensions" Name="Extension" Order="1" Flags="0" Type="55"/>
+    <ROW XmlElement="Extension_2" ParentElement="Extensions_1" Name="Extension" Order="0" Flags="0" Type="54"/>
+    <ROW XmlElement="Extension_3" ParentElement="Extensions_1" Name="Extension" Order="1" Flags="0" Type="55"/>
+    <ROW XmlElement="Extensions" ParentElement="Application" Name="Extensions" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Extensions_1" ParentElement="Application_1" Name="Extensions" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Identity" ParentElement="Package" Name="Identity" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="InitialRotationPreference" ParentElement="VisualElements" Name="InitialRotationPreference" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="InitialRotationPreference_1" ParentElement="VisualElements_1" Name="InitialRotationPreference" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="LockScreen" ParentElement="VisualElements" Name="LockScreen" Order="3" Flags="0" Type="0"/>
+    <ROW XmlElement="LockScreen_1" ParentElement="VisualElements_1" Name="LockScreen" Order="3" Flags="0" Type="0"/>
+    <ROW XmlElement="Logo" ParentElement="Properties" Name="Logo" Order="2" Flags="0" FileId="Store50x50Logo.scale100.png" Type="0"/>
+    <ROW XmlElement="Package" Name="Package" Order="0" Flags="0" Type="6"/>
+    <ROW XmlElement="Properties" ParentElement="Package" Name="Properties" Order="2" Flags="0" Type="0"/>
+    <ROW XmlElement="PublisherDisplayName" ParentElement="Properties" Name="PublisherDisplayName" Order="0" Flags="0" Text="v8-25" Type="0"/>
+    <ROW XmlElement="Resource" ParentElement="Resources" Name="Resource" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Resource_1" ParentElement="Resources" Name="Resource" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Resources" ParentElement="Package" Name="Resources" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Rotation" ParentElement="InitialRotationPreference" Name="Rotation" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Rotation_1" ParentElement="InitialRotationPreference" Name="Rotation" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Rotation_2" ParentElement="InitialRotationPreference_1" Name="Rotation" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Rotation_3" ParentElement="InitialRotationPreference_1" Name="Rotation" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="SplashScreen" ParentElement="VisualElements" Name="SplashScreen" Order="2" Flags="0" Type="0"/>
+    <ROW XmlElement="SplashScreen_1" ParentElement="VisualElements_1" Name="SplashScreen" Order="2" Flags="0" Type="0"/>
+    <ROW XmlElement="TargetDeviceFamily" ParentElement="Dependencies" Name="TargetDeviceFamily" Order="0" Flags="0" Type="28"/>
+    <ROW XmlElement="VisualElements" ParentElement="Application" Name="VisualElements" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="VisualElements_1" ParentElement="Application_1" Name="VisualElements" Order="0" Flags="0" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlFileComponent">
+    <ROW XmlFile="AppxBundleManifest.xml" FileName="AppxBundleManifest.xml" RootElement="Bundle" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+    <ROW XmlFile="AppxManifest.xml" FileName="AppxManifest.xml" RootElement="Package" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+    <ROW XmlFile="MsixAppInstallerData.xml" FileName="MsixAppInstallerData.xml" RootElement="AppInstallerUX" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="BuildUwpAppX:"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="AiAppXAssets" Component_="Store50x50Logo.scale100.png"/>
+    <ROW Feature_="MainFeature" Component_="DigitalWellbeingService.NET4.6_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="DigitalWellbeingService.NET4.6_References"/>
+    <ROW Feature_="MainFeature" Component_="DigitalWellbeingService.NET4.6_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="DigitalWellbeingWPF_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="DigitalWellbeingWPF_References"/>
+    <ROW Feature_="MainFeature" Component_="DigitalWellbeingWPF_SymbolsOutput"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild;MsiBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild;MsiBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild;MsiBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild;MsiBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="DigitalWellbeingService.NET4.6" Directory_="SHORTCUTDIR" Name="DIGITA~1.6|DigitalWellbeingService.NET4.6" Component_="DigitalWellbeingService.NET4.6_PrimaryOutput" Target="[#DigitalWellbeingService.NET4.6.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="DigitalWellbeingWPF" Directory_="SHORTCUTDIR" Name="DIGITA~1|DigitalWellbeingWPF" Component_="DigitalWellbeingWPF_PrimaryOutput" Target="[#DigitalWellbeingWPF.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{b4e54005-c6dc-4003-bffe-01f0514eb985}" ProjectName="DigitalWellbeingService.NET4.6" OutputGroup="PrimaryOutput" OutputFile="DigitalWellbeingService.NET4.6.exe" OutputFileShortcut="DigitalWellbeingService.NET4.6"/>
+    <ROW ProjectId="{b4e54005-c6dc-4003-bffe-01f0514eb985}" ProjectName="DigitalWellbeingService.NET4.6" OutputGroup="PrimaryOutput" OutputFile="DigitalWellbeingService.NET4.6.exe.config"/>
+    <ROW ProjectId="{b4e54005-c6dc-4003-bffe-01f0514eb985}" ProjectName="DigitalWellbeingService.NET4.6" OutputGroup="References" OutputFile="DigitalWellbeing.Core.dll"/>
+    <ROW ProjectId="{b4e54005-c6dc-4003-bffe-01f0514eb985}" ProjectName="DigitalWellbeingService.NET4.6" OutputGroup="SymbolsOutput" OutputFile="DigitalWellbeingService.NET4.6.pdb"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="PrimaryOutput" OutputFile="DigitalWellbeingWPF.exe" OutputFileShortcut="DigitalWellbeingWPF"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="PrimaryOutput" OutputFile="DigitalWellbeingWPF.exe.config"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="DigitalWellbeing.Core.dll_1"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="LiveCharts.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="LiveCharts.Wpf.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.BootstrapIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.BoxIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Codicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Coolicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Core.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Entypo.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.EvaIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.FeatherIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.FileIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Fontaudio.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.FontAwesome.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Fontisto.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.ForkAwesome.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Ionicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.JamIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Material.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.MaterialDesign.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.MaterialLight.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Microns.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Modern.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Octicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.PicolIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.PixelartIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.RadixIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.RemixIcon.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.RPGAwesome.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.SimpleIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Typicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Unicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.VaadinIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.WeatherIcons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="MahApps.Metro.IconPacks.Zondicons.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="ModernWpf.Controls.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="ModernWpf.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="References" OutputFile="System.ValueTuple.dll"/>
+    <ROW ProjectId="{42c7648f-81bf-46e3-818c-01b7a2f46b41}" ProjectName="DigitalWellbeingWPF" OutputGroup="SymbolsOutput" OutputFile="DigitalWellbeingWPF.pdb"/>
+  </COMPONENT>
+</DOCUMENT>

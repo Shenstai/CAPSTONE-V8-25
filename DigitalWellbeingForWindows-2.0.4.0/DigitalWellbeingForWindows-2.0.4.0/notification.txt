@@ -1,0 +1,29 @@
+ <!-- NOTIFICATION -->
+                <TextBlock Text="Notifications" Style="{StaticResource SubtitleTextBlockStyle}" Margin="10,0,0,10"/>
+
+                <ui:ListView Style="{StaticResource SettingListViewStyle}">
+
+                    <!-- Focus Assist -->
+                    <ui:ListViewItem Style="{StaticResource SettingListItemStyle}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ui:SimpleStackPanel Grid.Column="0" Margin="0,0,20,0">
+                                <TextBlock Text="Focus Assist" Style="{StaticResource BaseTextBlockStyle}"/>
+                                <TextBlock Text="Open Focus Assist in Settings." Style="{StaticResource CaptionTextBlockStyle}"/>
+                            </ui:SimpleStackPanel>
+
+                            <Button Grid.Column="1" Name="BtnFocusAssist" Click="BtnFocusAssist_Click" Content="Open"/>
+                        </Grid>
+                    </ui:ListViewItem>
+
+                </ui:ListView>
+
+    private void BtnFocusAssist_Click(object sender, RoutedEventArgs e)
+        {
+            _ = Process.Start("ms-settings:quiethours");
+            _ = Process.Start("ms-settings:quietmomentshome");
+        }
